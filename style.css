@@ -12,13 +12,26 @@ h1,h2,h3,h4,h5,h6{
 
 .floatleft{float: left;margin-right: 10px;}
 .aligncenter{display: block; margin: 10px auto;}
-.floatright{float:right;margin-leftt: 10px;}
+.floatright{float:right;margin-left: 10px;}
 
 .structure{width:960px;margin: 0 auto;}
 .fix{overflow:hidden;}
 
 .header_right{position: relative;}
-.search{ position: absolute; top:0; right:20px;}
+.search {
+	position: absolute;
+	top: 0;
+	right: 20px;
+	background: #ebebea;
+	padding: 7px 20px;
+    border-radius: 0 0 10px 10px;;
+}
+.search_button {
+	position: absolute;
+	width: 20px;
+	margin: -16px -4px;
+    cursor: pointer;
+}
 .header_area{}
 .header{}
 .line{width:100%; height:10px;background: #894aa3;}
@@ -106,7 +119,7 @@ h1,h2,h3,h4,h5,h6{
 	float: right;
     color:#874ca0;
 }
-input[type="text"] {
+.footer_input_text {
 	background: #e6e6e6;
 	width: 90%;
 	border: none;
@@ -114,7 +127,7 @@ input[type="text"] {
 	margin: 5px 0;
 	border-radius: 5px;
 }
-input[type="email"] {
+.footer_input_email {
 	background: #e6e6e6;
 	width: 90%;
 	border: none;
@@ -122,7 +135,7 @@ input[type="email"] {
 	margin: 5px 0;
 	border-radius: 5px;
 }
-input[type="submit"] {
+.footer_input_submit {
 	padding: 8px 10px;
 	font-size: 13px;
 	text-transform: uppercase;
@@ -132,7 +145,8 @@ input[type="submit"] {
     border:none;
     border-radius: 5px;
     margin-top: 5px;
-    background: #e6e6e6;    
+    background: #e6e6e6;
+    cursor: pointer;    
 }
 .form1 {
 	margin-top: -2px;
@@ -141,3 +155,9 @@ input[type="submit"] {
 .copyright{ background: #444444; padding: 30px 0;}
 .copy_text{padding: 0 30px;font-size: 12px; color:#fff; float:left;font-weight: 300;}
 .copy_template{ padding: 0 30px;font-size: 12px; color:#fff; float:right; font-weight: 300;}
+.search_input {
+	background: #ebebea;
+	height: 20px;
+	width: 215px;
+	border: none;
+}
